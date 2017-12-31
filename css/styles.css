@@ -1,0 +1,145 @@
+body{
+    width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:Georgia, serif;	
+	background:url(https://www.konikodes.com/fcc/img/pineapple.jpg) no-repeat center center;
+    position: fixed;
+	background-attachment: fixed;
+    background-size:cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover; 
+}
+.hero{
+    margin:0 auto;
+	width:100%;
+	color:#fbf2ea;
+	
+}
+h3{
+   margin:0;
+   padding:0;
+}
+ #columnContent{
+   display:inline-block;
+   color:#1e8895;
+   width:100%;
+   margin:0 auto;
+   padding:0;
+} 
+.outer{
+   display:inline;
+   padding:0;
+   margin:0 auto;
+}
+
+/* type of count */
+#cntdn{
+    margin-top:2em;
+}	
+#work, #cntdn, #plmin{
+   border: 1px solid transparent;
+   border-radius:5px;
+   margin:2px auto;
+   color:#fbf2ea;
+   
+}
+/*  Arrows  */
+#wdnarr, #wuparr,#pdnarr, #puparr{
+   font-size:2.1em;
+   cursor:pointer;
+}
+/* timing */
+#wcntmin, #ctime,#count,#ctmn, #pcntmin {
+   font-size:2.2em;
+}
+
+.choices{
+   display:inline;
+   width:50%;
+   float:none;
+   margin:2em auto;
+
+}
+.choices .btn {
+   margin:2em;
+   font-size:1.2em;
+   font-weight:bold;   
+ 
+}
+#msg{
+   margin:3em;
+   font-size:2.1em;
+   color:#fff;
+   font-weight:bold;
+}
+.pwrd {
+	font-size: .9em;
+	color: #7d500b;
+	font-weight: bold;
+	padding:2em;
+	text-align: center;
+    cursor:pointer;
+}
+.prt, .prt a {
+   display:none;
+   color:#fff;
+   text-decoration:none;
+}
+.pwrd a {
+   display:inline;
+   color:#fff;
+   text-decoration:none;
+} 
+@media only screen and (min-width:320px) and (max-width:480px) {
+h1{
+   font-size:1.8em;
+}
+h2{
+   font-size:1.6em;
+}
+h3{
+   font-size:1.7em;
+}
+
+.outer{
+   display:inline;
+   padding:0;
+   margin:3em 0 1.5em 0;
+}
+
+#work, #cntdn, #plmin {
+   border-radius:0;
+   margin:0;
+   padding:0;
+}
+
+/*  Arrows  */
+#wdnarr, #wuparr,#pdnarr, #puparr{
+   font-size:1.3em;
+   cursor:pointer;
+}
+/* timing */
+#wcntmin, #ctime,#count,#ctmn, #pcntmin {
+   font-size:1.3em;
+}
+
+.choices{
+   width: 90%;
+
+}
+#msg{
+   font-size:1.5em;
+   margin:0;
+}
+#ftr {
+   width:90%;
+   text-decoration: none;
+   margin:0;
+}
+.pwrd {
+	padding:1em;
+}
+}
