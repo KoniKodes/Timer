@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Koni's PlayTime Kount-Down Klock</title>
+<meta name="description" content="Pomodora Klock"/>
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+<meta charset="utf-8"/>
+<!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/styles.css"> 
+   <audio id="playsound" src=https://www.konikodes.com/fcc/img/playtime.mp3 type="audio/mgeg" autostart="false"></audio>
+   <audio id="worksound" src=https://www.konikodes.com/fcc/img/work.mp3 type="audio/mgeg" autostart="false"></audio>
+
+</head>
+<body>
+<div class="hero text-center">
+<h1><strong>Working Hard<br/>
+So We Can <em>Play</em> Harder</strong></h1></div><!-- close hero -->
+
+<div id="columnContent" class="container-fluid pull-center text-center">
+
+
+<div id="cntdn" class="pull-center text-center">
+<h2><strong>Counting Minutes<br/>Until</strong></h2>
+<div id="counttime"><h3><strong><span id="ctmn">25</span></strong></h3></div>
+</div><!-- cntdn -->
+<div class="outer text-center row"> 
+<div id="work" class="pull-left text-center col-sm-6">
+<h2><strong>
+Working It...</strong></h2>
+
+<div id="wkmin"><h3><strong><span id="wdnarr">&dArr;</span> <span id="wcntmin"> 25 </span> <span id="wuparr">&uArr;</span></strong></h3> </div>
+ </div><!-- close work -->
+ 
+
+
+ <div id="plmin" class="pull-right text-center col-sm-6">
+<h2><strong>Play Time!</strong></h2>
+<div id="playmin"><h3><strong><span id="pdnarr">&dArr;</span> <span id="pcntmin"> 5  </span> <span id="puparr">&uArr;</span></strong></h3> </div>
+</div><!-- play -->
+
+
+</div><!-- outer -->
+
+<div class="choices pull-center text-center row-fluid">
+
+<div class="pull-left col-xs-6">
+<button id="start" class="btn btn-success" value="start"> Start </button>
+<button id="pause" class="btn btn-primary" value="pause"> Pause </button>
+<button id="continue" class="btn btn-success" value="continue"> Continue </button></div>
+<div class="pull-right col-xs-6">
+<button id="reset" class="btn btn-info" value="reset"> Reset </button></div>
+<br/>
+</div><!-- choices -->
+
+<div id="msg" class="pull-center">
+Use the arrows to set each timer, and then press Start
+</div>
+</div><!-- columnContent -->
+  <div id="ftr">
+  <div class="prt pull-left"><br/><a href="../../home.html" title="Return to Portflio" target="_blank"><img src="../../img/porthome.png" alt="Return to Portfolio Home"><small>Return to Portfolio Home </small></a></div>
+  <div class="pwrd pull-right"><br/><a href="http://www.konikodes.com/index.html" target="_blank"><small>powered by </small><img src="https://www.konikodes.com/fcc/img/kico.png" alt="Koni Kodes Logo"></a></div><br/>
+</div>
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> 
+	 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	 <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
